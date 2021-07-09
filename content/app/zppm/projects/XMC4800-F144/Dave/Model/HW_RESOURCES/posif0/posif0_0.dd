@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ResourceModel:Peripheral xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" URI="http://resources/48.0.0/peripheral/posif/0" description="Position Interface 0" baseAddress="0x40028000">
+  <provided xsi:type="ResourceModel:ResourceGroup" name="global" URI="http://resources/48.0.0/peripheral/posif/0/posif/global">
+    <resourcesList name="pconf_fsel" requiredResourceUri="http://resources/48.0.0/peripheral/posif/0/pconf/fsel"/>
+    <resourcesList name="clk" requiredResourceUri="http://resources/48.0.0/peripheral/posif/0/posif_global_clk"/>
+    <resourcesList name="global_signal" requiredResourceUri="http://resources/48.0.0/peripheral/posif/0/posif_global_signal"/>
+  </provided>
+  <addressBlock offset="0x0" size="0x4000" usage="registers"/>
+</ResourceModel:Peripheral>
